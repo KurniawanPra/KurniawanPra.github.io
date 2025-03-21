@@ -4,16 +4,20 @@ window.onscroll = function () {
   const fixedNav = header.offsetTop;
   const toTop = document.querySelector('#to-top');
 
+  // Gunakan pageYOffset untuk mendeteksi scroll vertikal
   if (window.pageYOffset > fixedNav) {
     header.classList.add('navbar-fixed');
+    header.classList.remove('absolute')
     toTop.classList.remove('hidden');
     toTop.classList.add('flex');
   } else {
     header.classList.remove('navbar-fixed');
+    header.classList.add('absolute');
     toTop.classList.remove('flex');
     toTop.classList.add('hidden');
   }
 };
+
 
 // Hamburger
 const hamburger = document.querySelector('#hamburger');

@@ -7,11 +7,25 @@
     @apply font-inter;
   }
 }
-
+ /* * {
+  border: 5px solid red;
+} */
 @layer components {
   .navbar-fixed {
-    @apply fixed z-[9999] bg-white/70 backdrop-blur-sm dark:bg-dark/50;
+    @apply fixed top-0 left-0 z-50 w-full bg-white/70 backdrop-blur-sm dark:bg-dark/50;
     box-shadow: inset 0 -1px 0 0 rgb(0 0 0 / 0.2);
+    animation: navbar-slide-down 0.5s;
+  }
+
+  @keyframes navbar-slide-down {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 
   .hamburger-line {

@@ -99,11 +99,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sandhikagalih/portfolio-tailwind-css.git"
+    "url": "git+https://github.com/KurniawanPra/KurniawanPra.github.io.git"
   },
   "type": "commonjs",
   "bugs": {
-    "url": "https://github.com/sandhikagalih/portfolio-tailwind-css/issues"
-  },
-  "homepage": "https://github.com/sandhikagalih/portfolio-tailwind-css#readme"
+    "url": "https://github.com/KurniawanPra/KurniawanPra.github.io/issues"
+  }
 }

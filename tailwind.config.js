@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: ["./**/*.{html,js}"],
   darkMode: 'class',
   theme: {
@@ -8,18 +8,16 @@ module.exports = {
       padding: '16px',
     },
     extend: {
-      colors: {
-        primary: '#14b8a6',
-        dark: '#0f172a',
+      color: {
+        primary: '#2b6cb0',
         secondary: '#64748b',
+        dark: '#1e293b',
+        light: '#ffffff',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
       },
-      screens: {
-        '2xl': '1320px',
-      },
     },
   },
   plugins: [],
-};
+}
