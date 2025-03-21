@@ -33,7 +33,7 @@ window.addEventListener('click', function (e) {
 });
 
 // Darkmode toggle
-const darkToggle = document.querySelector('#dark-toggle');
+const darkToggle = document.querySelector('#darkSwitch');
 const html = document.querySelector('html');
 
 darkToggle.addEventListener('click', function () {
