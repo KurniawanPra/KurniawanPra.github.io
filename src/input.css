@@ -52,3 +52,7 @@
     @apply translate-x-3;
   }
 }
+
+.svg{
+  top: -75px;
+}

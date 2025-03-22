@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Tailwind CSS</title>
     <link href="dist/css/output.css" rel="stylesheet" />
     <script>
@@ -21,20 +21,7 @@
         <div class="relative flex items-center justify-between">
           <div class="px-4">
             <a href="#home" class="block items-center font-bold text-primary text-3xl md:2xl py-6">
-              <!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
-                <path fill="#14b8a6" d="M6,42V6h36v36H6z">
-                  <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
-                </path>
-                <path fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="3.3" 
-                  d="M23.783,22.352v9.819 c0,3.764-4.38,4.022-6.283,0.802">
-                  <animate attributeName="stroke-dasharray" from="1000" to="0" dur="2s" fill="freeze"/>
-                </path>
-                <path fill="none" stroke="#ffffff" stroke-miterlimit="10" stroke-width="3.3" 
-                  d="M34.69,25.343 c-1.739-2.727-5.674-2.345-5.84,0.558c-0.214,3.757,6.768,2.938,6.247,7.107c-0.365,2.92-4.874,3.858-7.193-0.065">
-                  <animate attributeName="stroke-dasharray" from="1000" to="0" dur="2s" begin="0.5s" fill="freeze"/>
-                </path>
-              </svg> -->
-                  RK
+              RK
             </a>
           </div>
           <div class="flex items-center px-4">
@@ -58,9 +45,6 @@
                 <li class="group">
                   <a href="#portfolio" class="mx-8 flex py-2 text-lg font-semibold text-dark group-hover:text-primary dark:text-white">Project</a>
                 </li>
-                <!-- <li class="group">
-                  <a href="#clients" class="mx-8 flex py-2 text-lg font-semibold text-dark group-hover:text-primary dark:text-white">Clients</a>
-                </li> -->
                 <li class="group">
                   <a href="#blog" class="mx-8 flex py-2 text-lg font-semibold text-dark group-hover:text-primary dark:text-white">Blog</a>
                 </li>
@@ -83,7 +67,7 @@
     <!-- Header End -->
 
     <!-- Hero Section Start -->
-    <section id="home" class="pt-36 dark:bg-dark">
+    <section id="home" class="pt-36 sm:pt-24 md:pt-20 lg:pt-20 dark:bg-dark">
       <div class="container">
         <div class="flex flex-wrap">
           <div class="w-full self-center px-4 lg:w-1/2">
@@ -92,18 +76,20 @@
 
             <a href="#" class="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg ">Contact Me</a>
           </div>
-          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="w-full self-end px-4 lg:w-1/2">
             <div class="relative mt-10 lg:right-0 lg:mt-9">
-              <img src="dist/img/ayam.png" alt="Sandhika Galih" class="relative z-10 mx-auto max-w-full" />
-              <span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125">
-                <svg width="370" height="370" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    fill="#2b6cb0"
-                    d="M47.4,-51C59.2,-35.6,65.1,-17.8,63.4,-1.7C61.7,14.5,52.6,28.9,40.8,36.6C28.9,44.2,14.5,45,-2,47C-18.4,49,-36.8,52.1,-45.4,44.5C-53.9,36.8,-52.5,18.4,-51.2,1.3C-49.9,-15.8,-48.7,-31.7,-40.2,-47.1C-31.7,-62.4,-15.8,-77.3,1,-78.3C17.8,-79.2,35.6,-66.3,47.4,-51Z"
-                    transform="translate(100 100) scale(1.1)"
-                  />
-                </svg>
+              <img src="dist/img/ayam.png" alt="My Profile" class="relative z-10 mx-auto max-w-full" />
+              <span class="absolute bottom-0 left-1/2 -translate-x-1/2 md:scale-125" style="top: -30px;">
+              <svg width="100%" height="100%" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path
+
+              fill="#2b6cb0"
+              d="M47.4,-51C59.2,-35.6,65.1,-17.8,63.4,-1.7C61.7,14.5,52.6,28.9,40.8,36.6C28.9,44.2,14.5,45,-2,47C-18.4,49,-36.8,52.1,-45.4,44.5C-53.9,36.8,-52.5,18.4,-51.2,1.3C-49.9,-15.8,-48.7,-31.7,-40.2,-47.1C-31.7,-62.4,-15.8,-77.3,1,-78.3C17.8,-79.2,35.6,-66.3,47.4,-51Z"
+              transform="translate(100 100) scale(1.1)"
+              />
+              </svg>
               </span>
+            </div>
             </div>
           </div>
         </div>
@@ -116,13 +102,13 @@
       <div class="container">
         <div class="flex flex-wrap lg:flex-nowrap">
           <div class="mb-10 w-full px-4 lg:w-1/2">
-            <h4 class="mb-3 text-2xl font-bold text-primary lg:text-2xl">About Me</h4>
-            <p class="max-w-xl text-base font-medium text-dark lg:text-lg dark:text-light lg:text-secondary">
+            <h4 class="mb-3 text-2xl font-bold text-primary lg:text-2xl hover:text-blue-300">About Me</h4>
+            <p class="max-w-xl text-base font-medium text-dark lg:text-lg dark:text-light text-secondary">
               Hello! I'm M. Rinko Wing Kurniawan, a student with skills in Laravel, PHP, JavaScript and Tailwind CSS, born on April 28, 2009, passionate about technology and aspiring to become a professional programmer.
             </p>
           </div>
           <div class="w-full px-4 lg:w-1/2">
-            <h3 class="mb-3 text-2xl font-semibold text-dark dark:text-white lg:pt-2 lg:text-2xl hover:text-light text-primary">Contact Me</h3>
+            <h3 class="mb-3 text-2xl font-semibold text-dark dark:text-white lg:pt-2 lg:text-2xl hover:text-blue-300 text-primary">Contact Me</h3>
             <p class="mb-6 text-base font-medium text-secondary dark:text-white lg:text-lg">
               Social media is the easiest way to contact me. You can also send me an email or call me directly.
             </p>

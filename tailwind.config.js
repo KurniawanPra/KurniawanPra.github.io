@@ -8,7 +8,7 @@ export default {
       padding: '16px',
     },
     extend: {
-      color: {
+      colors: {
         primary: '#2b6cb0',
         secondary: '#64748b',
         dark: '#1e293b',
